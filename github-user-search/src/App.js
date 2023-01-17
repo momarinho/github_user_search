@@ -35,7 +35,7 @@ function App() {
           onSubmit={onSearchSubmit}
           value={query}
         />
-        <h3>Results</h3>
+        <h3>Results:</h3>
         <div id="results">
           <div>
             {results.map((user) => (
@@ -78,7 +78,7 @@ const Form = (props) => {
         onChange={onChange}
         value={value}
       />
-      <button type="submit">Search</button>
+      <button className='btn' type="submit">Search</button>
     </form>
   );
 };

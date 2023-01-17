@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7B89AE;
+}
+
+h3 {
+  text-align: center;
+}
+
+.app {
+  margin: 0;
+  padding: 10px;
+}
+
+.main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-form input,
+.search-form button {
+  width: 280px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.search-form input {
+  border: 1px solid #2F426C;
+  outline: none;
+}
+
+.search-form button {
+    margin-left: 10px;
+}
+
+.btn {
+  letter-spacing: normal;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #000;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: white;
+  background-color: #444;
+}
+
+.btn:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 0.9rem;
+}
+
+.user {
+  height: 100px;
+  margin: 10px;
+  border: 1px solid #2F426C;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
